@@ -1,0 +1,98 @@
+GIT:
+- Used to maintain history of the project (or track changes made in the project), like which person made which changes and where in the project amd so and so forth.
+
+GITHUB:
+- A platform to host such repositories(folders) whose history can be maintained using git
+
+COMMAND TERMINAL :
+- Allows us to manipulate the file structure using commands.
+- Commands:
+  1. ls
+  2. mkdir
+
+ADDING GIT TO YOUR PROJECT:
+- create the project folder
+- open git bash
+- use "git init" command to intialize a ".git" folder(repository) in your project folder which will store the history of your project and will be "HIDDEN" folder in MACOS and linux as it name starts with "dot".
+
+GIT ANALOGY:
+- Consider a wedding in which guests whose photo is not taken with the couple are going on the stage, a photographer clicks there photo with the couple and the photo is stored permanently within the photo album and then the guests exit the stage.
+
+-In above analogy:
+ GUESTS are the UNTRACKED FILES and in order to make them as tracked we use command "git add ." to add all files in the folder at once or name of the file in place of dot.
+ Then use "git commit -m" to save changes(i.e click their photo) to git where 'm' stands for message
+
+GIT COMMANDS:
+
+-> When using git for the first time, set the global configs using the commands:
+  $ git config --global user.name "your_name"
+  $ git config --global user.email your_email
+
+-> git status:
+   used to know which changes are made and files are added and tracked in the current folder
+
+-> git add:
+   Add all files to your git repo. and track their changes.
+
+-> touch names.txt
+   Create a txt file
+
+-> vi names.txt
+   To make changes into text file, enter vi editor - to save changes and quit - press Esc and type colon :wq
+
+-> cat names.txt
+   To display content of txt file
+
+-> git log 
+   To display history of what changes were made
+
+-> rm -rf names.txt
+   Remove / delete file 
+
+-> exit
+   To come out of master mode and logout
+
+DELETE COMMITS:
+- copy the hash id of the commit which is present below the commit to be deleted
+- use "git reset hash_id" cmd 
+- then git log to see that only the commit with hash id that we copied is present , rest are deleted.
+- so now the deleted commits go into the UNSTAGED area i.e the guests whose photo is to be taken
+
+GIT STASH:
+- When you dont want to commit and dont want to lose the changes you made, use cmd "git stash" to push them to backstage
+- When you want to bring those files changes back use "git stash pop" to bring them back on stage
+- To permanently delete the changes in stash use "git stash clear" to delete them forever
+
+PUSHING YOUR CODE TO GITHUB:
+- Create a repo in your account
+- to attach the URL of your repo to your project folder use "git remote add origin url"
+- "git remote -v" to see all url attached to that project
+- To PUSH the files use "git push origin master"
+- FLOW:
+  Make your changes/create files
+	|
+  git add. - add files
+	|
+  git commit -m"file added" - commit your changes
+	|
+  git push origin branch_name - mostly to main branch
+
+BRANCHING :
+- Always create a new branch when your code is not finalized, never add directly to your main default branch.
+- use "git branch branch_name" cmd to create a branch
+- use cmd "git checkout branch_name" to make head point to new branch. Basically you can switch branches using this command.
+- the HEAD pointer now points to the branch and whatever commits you make will be added to it.
+- To MERGE a branch with main branch use "git merge branch_name"
+
+FORKING AND CLONING :
+- You cannnot directly edit any repo, so we fork it i.e make a copy of that repo into our account.
+- After forking, open that repo in your account and copy the url
+- Open git bash and give cmd "git clone url" to clone it in your local folder
+- Now you can make whatever changes you want in this won't affect the main branch until you send a pull request and some authorised person merges it with main code.
+- the url of project that you have forked is called as UPSTREAM URL and cmd to add it to your project is "git remote add upstream url" but you can never push your files directly to it as you dont have the access.
+- you can only push to 'origin' which is your account
+
+PULL REQUEST :
+- When you want to merge the changes that you made in the forked repo to the original repo, we make a pull request
+- 1 Pull request == 1 Branch
+- Create a new pull request for every new branch
