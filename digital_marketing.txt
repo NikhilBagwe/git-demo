@@ -2,8 +2,8 @@
 
 - Marketing efforts using Internet and Electronic devices
 - It is a subset of marketing.
-- Simply posting photo of your visting card on facebook using your phone is not digital marketing, it is called spamming as you have not decided your target audience, there no
-  strategic approach, etc.
+- Simply posting photo of your visting card on facebook using your phone is not digital marketing, it is called spamming as you have not decided your target audience, there 
+  no strategic approach, etc.
   
 -> Benefits of Digital Marketing :
 
@@ -17,8 +17,45 @@
 -> SEO :
 
 * SEO includes efforts for ranking website into Search Engine results pages on certain keywords.
+* Our page is ranked organically based on the keywords we used.
 * Types :
   1. On page SEO - Changing the content such as title, description, etc. present on your webpage
   2. Off page SEO - backlinking - Backlinks are links from a page on one website to another.
   3. Technical SEO - Changing your techical assets based on google guidelines such as compressing your code, images and making it secure for better performance
 * Don't use black hat techniques for SEO as this will lead to penalty by google algorithm.
+
+-> Search Engine Marketing (SEM):
+
+* Form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages primarily through paid advertising.
+* This results are not organically generated, but you pay Google for ranking your page at top.
+* Advantages over SEO :
+  1. SEO takes 4-6 months to generate traffic on your website.
+  2. SEM gives instant results.
+  3. Flexibility of running ads anytime.
+* SEM requires skills to run your ads and beat competitors.
+
+-> Email Marketing :
+
+* Process of promoting your products/services by sending commercials emails to target audience.
+* Will not work for people :
+  1. Sending mails to random people - spamming.
+  2. Sending only SALE oriented mails.
+* Keep sending valuable content to your loyal customers in order to retain them.
+* We cannot keep a track of how many people opened our mail, clicked a certain link, etc. manually so we used SOFTWARES to automate this. eg: MAILCHIMP, ActiveCampaigns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
