@@ -1,0 +1,24 @@
+=> DIGITAL MARKETING:
+
+- Marketing efforts using Internet and Electronic devices
+- It is a subset of marketing.
+- Simply posting photo of your visting card on facebook using your phone is not digital marketing, it is called spamming as you have not decided your target audience, there no
+  strategic approach, etc.
+  
+-> Benefits of Digital Marketing :
+
+* Entry resistance is low - With a small investment you can start creating your online presence by creating social media pages and thus growing your business.
+* Measurable and Real time - You can go to your google ads dashboard and check how many people visited your page, did they signed up, age group, gender etc.
+* High return on investment(ROI).
+* It's a 24x7 marketing approach - You cannot distribute leaflets at night, but can display your ads on facebook feed of target audience anytime.
+* Global customer reach
+* Precise targeting - target specific audeince or age group
+
+-> SEO :
+
+* SEO includes efforts for ranking website into Search Engine results pages on certain keywords.
+* Types :
+  1. On page SEO - Changing the content such as title, description, etc. present on your webpage
+  2. Off page SEO - backlinking - Backlinks are links from a page on one website to another.
+  3. Technical SEO - Changing your techical assets based on google guidelines such as compressing your code, images and making it secure for better performance
+* Don't use black hat techniques for SEO as this will lead to penalty by google algorithm.
